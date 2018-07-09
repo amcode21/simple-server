@@ -1,3 +1,5 @@
+'use strict';
+
 require('console-stamp')(console, {
     metadata: function () {
         return ('[' + process.memoryUsage().rss + ']');
