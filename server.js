@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
 	res.send('Hello, World!');
 });
 
-app.server.listen(process.env.PORT || 8080, () => {
+app.server.listen(process.env.port || 80, () => {
 	console.info('Listening @ http://127.0.0.1:' + app.server.address().port);
 });
